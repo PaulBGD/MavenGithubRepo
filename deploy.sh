@@ -9,7 +9,7 @@ cd out
 rm -r ./*
 
 mkdir -p ./net/burngames/MavenGithubRepo
-cp -r ~/.m2/repository/net/burngames/MavenGithubRepo/ ./net/burngames/MavenGithubRepo/
+cp -r ~/.m2/repository/net/burngames/MavenGithubRepo/ ./net/burngames/
 
 git add --all
 git commit -m "Deploy to GitHub repo: ${SHA}"
