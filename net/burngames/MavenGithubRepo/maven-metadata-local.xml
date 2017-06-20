@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.burngames</groupId>
+  <artifactId>MavenGithubRepo</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20170620185039</lastUpdated>
+  </versioning>
+</metadata>
