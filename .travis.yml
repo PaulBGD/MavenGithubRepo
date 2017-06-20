@@ -1,4 +1,14 @@
 language: java
 
+before_install:
+  - ./prebuild.sh
+
 script:
   - ls ~/.m2/repository/
+
+after_success:
+  - ./deploy.sh
+
+env:
+  global:
+  - ENCRYPTION_LABEL: "bf87fa272ee9_"
