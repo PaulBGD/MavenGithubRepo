@@ -6,4 +6,4 @@ script: bash ./deploy.sh
 
 env:
   global:
-  - ENCRYPTION_LABEL: "bf87fa272ee9_"
+  - ENCRYPTION_LABEL: "bf87fa272ee9"
