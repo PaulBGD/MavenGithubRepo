@@ -11,6 +11,10 @@ rm -r ./*
 mkdir -p ./net/burngames/MavenGithubRepo
 cp -r ~/.m2/repository/net/burngames/MavenGithubRepo/ ./net/burngames/
 
+# why are these included??
+rm .travis.yml
+rm .gitignore
+
 git add --all
 git commit -m "Deploy to GitHub repo: ${SHA}"
 
