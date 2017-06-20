@@ -1,13 +1,8 @@
 language: java
 
-before_install:
-  - ./prebuild.sh
+before_install: bash ./prebuild.sh
 
-script:
-  - ls ~/.m2/repository/
-
-after_success:
-  - ./deploy.sh
+script: bash ./deploy.sh
 
 env:
   global:
